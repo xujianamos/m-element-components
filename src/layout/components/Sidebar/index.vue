@@ -1,13 +1,13 @@
 <!--
  * @Author: xujian
- * @Date: 2022-03-25 22:37:21
+ * @Date: 2022-03-27 12:27:09
  * @LastEditors: xujian
- * @LastEditTime: 2022-03-27 10:49:15
+ * @LastEditTime: 2022-03-27 12:27:12
  * @Description: 
- * @FilePath: /m-element-components/src/App.vue
+ * @FilePath: /m-element-components/src/layout/components/Sidebar/index.vue
 -->
 <template>
-  <router-view></router-view>
+  <div class=""></div>
 </template>
 
 <script setup>
