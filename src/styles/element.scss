@@ -1,3 +1,25 @@
+/*
+ * @Author: xujian
+ * @Date: 2021-12-17 20:16:50
+ * @LastEditors: xujian
+ * @LastEditTime: 2022-04-03 14:56:18
+ * @Description: 修改element组件样式
+ * @FilePath: /m-element-components/src/styles/element.scss
+ */
+/**
+* 修改组件库内部的样式
+* 1. 需要自定义一个类名空间
+* 2. 先在浏览器里面调试样式
+* 3. 把调试好的类名放在这个类名里面
+* 4. 在App.vue里面引入这个文件
+* 5. 在组件内需要改样式的元素的父元素加上这个类名
+ */
+.m-choose-icon-dialog-body-height {
+  .el-dialog__body {
+    height: 50vh;
+    overflow: scroll;
+  }
+}
 .el-avatar {
   --el-avatar-background-color: none;
 }
